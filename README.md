@@ -36,5 +36,3 @@ We take the image from user and classifies it based on our model which is alread
 
 7) Try all the Functions and Enjoy !!
 
-
-~ Bhargav Joshi
