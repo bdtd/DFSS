@@ -69,7 +69,8 @@ app = Flask(__name__)
 # routes
 @app.route("/", methods=['GET', 'POST'])
 def kuch_bhi():
-	return render_template("index.html")
+	return  "Hello"
+	# render_template("index.html")
 
 # @app.route("/about")
 # def about_page():
