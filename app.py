@@ -69,7 +69,7 @@ def predict_label(img_path):
 # routes
 @app.route("/", methods=['GET', 'POST'])
 def kuch_bhi():
-	return render_template("./templates/index.html")
+	return render_template("index.html")
 
 @app.route("/about")
 def about_page():
@@ -92,7 +92,7 @@ def get_hours():
 
 
 
-	return render_template("./templates/index.html", prediction = p, img_path = img_path)
+	return render_template("index.html", prediction = p, img_path = img_path)
 
 
 
