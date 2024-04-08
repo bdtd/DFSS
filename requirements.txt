@@ -1,0 +1,4 @@
+tflite-runtime==2.14.0
+Flask==3.0.2
+numpy
+Pillow
