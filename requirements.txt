@@ -1,0 +1,4 @@
+tflite-runtime
+flask
+numpy
+Pillow
