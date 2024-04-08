@@ -7,9 +7,10 @@
         }
     ],
     "routes": [
+        { "handle": "filesystem"},
         {
             "src":"/(.*)",
-            "dest":"app.py"
+            "dest":"/app.py"
         }
     ]
 }
