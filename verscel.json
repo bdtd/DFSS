@@ -1,13 +1,17 @@
 {
     
     "builds": [
+        "env": {
+            "PYTHON_VERSION": "3.9.18",
+        }
+        
         {
             "src":"app.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
-        { "handle": "filesystem"},
+       
         {
             "src":"/(.*)",
             "dest":"/app.py"
